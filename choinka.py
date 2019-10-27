@@ -1,20 +1,9 @@
-lista = [1,2,3,4,5]
-suma = 0
+i=0
+def choinka(h):
+    for i in range(h):
+        print(" " *(h-i-1) + "*"(2*i+1))
 
-for x in range(len(lista)):
-     suma += lista[x] 
-print suma
-
-
-
-
-
-
-#for i in range(len(lista)):
-#for i in lista:
-#    suma += i 
-#print suma
-
+choinka(int(4)) 
 
 
 
